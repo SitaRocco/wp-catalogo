@@ -1,0 +1,339 @@
+ body{
+    background-color:#e4e4e5;
+    
+ }
+
+ h2{
+    font-size: 4vh;
+ }
+
+ .logo,#navbarNav{
+    font-family: 'Bebas neue',sans-serif;
+ }
+
+ #navbarNav{
+    font-size: 2.4vh;
+    color: black;
+ }
+
+ #aumentarTexto{
+  margin-right: 20px;
+  margin-bottom:1vh;
+  border: 2px solid black;
+ }
+
+ #aumentarTexto:hover{
+  background-color: gray;
+  color: white;
+ }
+ 
+ #disminuirTexto{
+  margin-right: 20px;
+  margin-bottom: 1vh;
+  border: 2px solid black;
+ }
+
+ #disminuirTexto:hover{
+  background-color: gray;
+  color: white;
+ }
+ 
+
+/*INICIO SECTION BRITPOP BANDS*/
+
+
+ .carousel-inner .britpop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; 
+  }
+
+    .britpop h1{
+    height: auto; 
+    display: block;
+    filter: none;
+    font-size: 15.6vw;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Bebas neue',sans-serif;
+  }
+  
+
+ .carousel-inner .carousel-item .oasis {
+    position: absolute;
+    top: 9%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; 
+  }
+
+  .title_band h3{
+    font-size: 2.5vw;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-family: 'Bebas neue',sans-serif;
+  }
+
+
+  .carousel-inner .carousel-item .blur {
+    position: absolute;
+    top: 9%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; 
+  }
+
+  
+  .carousel-inner .carousel-item .pulp {
+    position: absolute;
+    top: 9%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; 
+  }
+
+  
+  .band-image {
+  position: relative;
+  overflow: hidden;
+ }
+
+.band-image img {
+  width: 100%;
+  height: 75%;
+ }
+
+  /*FIN SECTION BRITPOP BANDS */
+
+  /*INICIO SECTION BRITPOP HISTORIA*/
+  .britpop-historia p{
+    margin-top: 90px;
+  }
+
+  .britpop-historia .titulo {
+    font-family: 'Bebas neue',sans-serif;
+    font-size: 4vh;
+    margin-top: 70px;
+   
+  }
+
+
+  .britpop-historia .linea-horizontal {
+    border-top: 6px solid red;
+    opacity: 1;
+  }
+
+  .britpop-historia .container {
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    font-family:'Roboto',sans-serif  ;
+  }
+  
+  .britpop-historia .container p {
+     margin-top: 30px;
+  }
+  
+  .britpop-historia .container img {
+    margin-top: 40px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 40px;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: .7s ease-in-out all;
+  }
+  
+  .britpop-historia .container img.izquierda {
+    transform: translateX(-100px);
+  }
+  
+  .britpop-historia .container img.derecha {
+    transform: translateX(100px);
+  }
+  
+  .britpop-historia .container img.visible {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+  }
+
+  .britpop-historia .img-container img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  /*FIN SECTION BRITPOP HISTORIA*/
+
+
+  /*INICIO SECTION BRITPOP TOP ARTISTS*/
+  
+  .britpop-top-artists .container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .britpop-top-artists img{
+    margin-top: 20px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  iframe{
+    border-radius: 0 0 10px 10px;
+    background: rgb(40, 40, 40);
+  }
+
+  .britpop-top-artists .linea-horizontal {
+    border-top: 6px solid red;
+    opacity: 1;
+  }
+  
+  .container h3 {
+    font-family:'Bebas neue',sans-serif;  
+    font-size:4vh;
+  }
+
+  .image-wrapper {
+    position: relative;
+  }
+
+  .image-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    margin: 0;
+    display: none;
+  }
+
+  .image-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    font-size: 3vh;
+    border-radius: 5px;
+    text-align: center;
+    font-family:'Bebas neue',sans-serif; 
+  }
+
+  /*FIN SECTION BRITPOP TOP ARTISTS*/
+
+  /*INICIO SECTION BRITPOP FOOTER*/
+   .britpop-footer{
+    margin-top: 12vh;
+    background-color:#b5b5b5;
+   
+   }
+  
+  .britpop-footer p{
+    
+    font-family:'Bebas neue',sans-serif;
+    margin-top: 10px;
+   }
+
+
+  /*FIN SECTION BRITPOP FOOTER*/
+
+
+ /* INICIO SECTION BEST ALBUMS*/
+
+  .best-albums .linea-horizontal{
+    border-top: 6px solid red;
+    opacity: 1;
+    margin-bottom: 40px;
+  }
+
+  .best-albums .container{
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 100px;
+  }
+ 
+  .best-albums p{
+    font-family: 'Roboto',sans-serif;
+  }
+ 
+  .best-albums .card {
+    border: none;
+   
+  }
+
+ .best-albums{
+  font-family:'Bebas neue',sans-serif; 
+ }
+
+.linea{
+  border-top: 3px solid red;
+ }
+ 
+ .linea-horizontal-nav {
+    border-top: 2px solid black;
+    opacity: 1;
+  }
+
+ #home-button{
+    font-family:'Bebas neue',sans-serif;
+    letter-spacing:1px;
+ }
+ 
+/* FIN SECTION BEST ALBUMS*/
+
+/* INICIO SECTION NOSOTROS*/
+
+ .linea-horizontal-nosotros{
+    border-top: 6px solid red;
+    opacity: 1;
+    
+  }
+  
+  .nosotros-page h3{
+      margin-top:70px;
+      
+  }
+  
+ .nosotros-page{
+     font-family:'Roboto',sans-serif!important;
+     font-size:18px!important;
+     line-height: 30px!important;
+ }
+
+/*  FIN SECTION NOSOTROS*/
+
+/* INICIO SECTION BÚSQUEDA*/
+
+  .extracto {
+     font-family:'Roboto',sans-serif; 
+     font-size:18px;
+     line-height: 30px;
+  }
+  
+/*FIN SECTION BÚSQUEDA*/
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+    #navbarNav {
+        font-size: 14px; 
+    }
+
+ 
+    .navbar-nav .nav-item {
+        margin-bottom: 10px; 
+    }
+   
+}
+
+ 
